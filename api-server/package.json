@@ -1,13 +1,13 @@
 {
-  "name": "nodebird-api",
+  "name": "api-server",
   "version": "0.0.1",
-  "description": "rest-api-server",
+  "description": "",
   "main": "app.js",
   "scripts": {
     "start": "nodemon app",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Sonchaegeon",
+  "author": "Zero Cho",
   "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.0",

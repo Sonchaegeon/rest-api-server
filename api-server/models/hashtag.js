@@ -24,3 +24,4 @@ module.exports = class Hashtag extends Sequelize.Model {
     db.Hashtag.belongsToMany(db.Post, { through: 'PostHashtag' });
   }
 };
+

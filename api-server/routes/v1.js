@@ -27,7 +27,7 @@ router.post('/token', async (req, res) => {
       nick: domain.User.nick,
     }, process.env.JWT_SECRET, {
       expiresIn: '1m', // 1분
-      issuer: 'son',
+      issuer: 'nodebird',
     });
     return res.json({
       code: 200,
